@@ -1,0 +1,229 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <style>
+            * {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin: 20px 0 30px 0;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+section, .section {
+    margin-bottom: 30px;
+}
+
+input, button, select, textarea {
+    background: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: .9rem;
+    outline: none;
+}
+
+input[type="range"] {
+    padding: 10px 0;
+}
+
+input:active, input:focus, textarea:active, textarea:focus, select:active, select:focus {
+    background:  orangered;
+}
+
+input[type="date"] {
+    padding: 8px 20px;
+}
+
+textarea {
+    resize: none;
+    width: 50%;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: black;
+    color: orangered;
+}
+
+.form-div {
+    margin-bottom: 30px;
+}
+
+.out-block {
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.section {
+    margin: 10px 0 10px 0;
+    padding: 10px 0 30px 0;
+    border-bottom: 1px solid #c2c2c2;
+}
+
+.section div {
+    margin-bottom: 20px;
+}
+
+.red {
+    color: IndianRed;
+}
+
+.courses {
+    margin-top: 40px;
+}
+
+.courses li {
+    margin-bottom: 20px;
+}
+
+.courses a {
+    color: #222;
+}
+
+.active {
+    box-shadow: 0 0 10px #000;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.test-field{
+    min-height: 450px;
+    background: #d2d2d2;
+    position: relative;
+}
+
+.log-block {
+    position: absolute;
+    width: 200px;
+    font-family: monospace;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    margin: 40px;
+    padding: 10px;
+    border: 1px solid orangered;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:hover{
+    background: rebeccapurple;
+    cursor: pointer;
+}
+        </style>
+        <div class="container">
+            <h1>My project in github</h1>
+            <div class="section">
+                <table>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                    <tr>
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                    </tr>
+                    <tr>
+                        <td>Island Trading</td>
+                        <td>Helen Bennett</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr>
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td>Yoshi Tannamuri</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Magazzini Alimentari Riuniti</td>
+                        <td>Giovanni Rovelli</td>
+                        <td>Italy</td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="container">
+                <ul>
+                    <li><b>Company: </b><span></span></li>
+                    <li><b>Contact: </b><span></span></li>
+                    <li><b>Country: </b><span></span></li>
+                </ul>
+            </div>
+    
+         
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
